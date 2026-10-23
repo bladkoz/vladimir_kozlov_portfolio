@@ -1,0 +1,43 @@
+/* ==========================================================
+   DESIGN TOKENS: change these and the whole site restyles.
+   Soft industrial minimalism: warm greys, graphite ink,
+   one muted signal accent, hairline rules, gentle radii.
+   ========================================================== */
+:root {
+  /* Colour */
+  --bg:          #ECEAE6;   /* warm concrete */
+  --surface:     #F6F5F2;   /* card / panel */
+  --surface-2:   #E3E1DC;   /* inset / hover */
+  --ink:         #25272A;   /* graphite */
+  --ink-soft:    #5E6165;   /* secondary text */
+  --ink-faint:   #8E9195;   /* labels, meta */
+  --rule:        #CFCCC6;   /* hairlines */
+  --accent:      #C4623A;   /* muted signal orange */
+  --accent-soft: #EBD3C7;
+
+  /* Type */
+  --font-sans: "Inter Tight", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+
+  --fs-xs:   0.72rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1.0625rem;
+  --fs-lg:   1.375rem;
+  --fs-xl:   clamp(1.75rem, 3vw, 2.5rem);
+  --fs-hero: clamp(2.6rem, 7vw, 5.5rem);
+
+  /* Space (4px base) */
+  --s-1: 0.25rem; --s-2: 0.5rem;  --s-3: 0.75rem; --s-4: 1rem;
+  --s-5: 1.5rem;  --s-6: 2rem;    --s-7: 3rem;    --s-8: 5rem;  --s-9: 8rem;
+
+  /* Shape */
+  --radius-s: 8px;
+  --radius:   16px;
+  --radius-l: 28px;
+  --shadow:   0 1px 0 rgba(255,255,255,.6) inset, 0 10px 30px -18px rgba(37,39,42,.35);
+
+  /* Layout */
+  --max: 1200px;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+  --ease: cubic-bezier(.2,.7,.2,1);
+}
